@@ -13,6 +13,6 @@
 Formato PNG RGBA, 752 × 752 pixels, fundo externo transparente. Usar o mesmo arquivo por categoria em todos os cards; não redesenhar o símbolo nem mudar a moldura hexagonal.
 
 ## Estado de integração
-Os PNGs foram produzidos localmente e estão disponíveis como pacote entregue na conversa. **Ainda não foram enviados ao GitHub.** A biblioteca só estará completa após upload binário e conferência dos cinco arquivos no repositório.
+**Upload confirmado:** os cinco PNGs estão presentes nesta pasta na branch de desenvolvimento, conforme consulta ao GitHub em 22/11/2026. A presença e os nomes foram verificados; validação visual detalhada, dimensões, canal alfa e homologação final ainda estão pendentes.
 
 Sem merge ou deploy.
