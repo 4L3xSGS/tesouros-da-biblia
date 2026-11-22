@@ -1,44 +1,46 @@
-# Modelo Mestre Universal — MMU v1.0 (proposta técnica)
+# MMU — Frente baseada na referência visual de Davi (revisão 1.1)
 
-**Status:** protótipo geométrico, não homologado. **Branch:** feature/modelo-mestre-universal-v1.
+**Status:** referência estrutural aprovada pelo usuário; coordenadas aproximadas ainda pendentes de homologação. **Branch:** feature/modelo-mestre-universal-v1.
 
-## Prancheta e coordenadas
-Sistema cartesiano com origem no canto superior esquerdo. Dimensões de projeto: **750 × 1050 unidades** (5:7). Não representam milímetros, DPI ou tamanho físico aprovado. Área de segurança: x=48..702, y=48..1002. Moldura externa: x=12, y=12, w=726, h=1026; filete interno: x=28, y=28, w=694, h=994. Raios e ornamentos ficam para a prova gráfica.
+## Referência recebida
+Imagem enviada pelo usuário de 1199 × 1536 pixels (proporção ≈ 0,781). A imagem é a fonte visual de verdade para a **frente**. Não é autorização para alterar o verso. Não há arquivo de imagem versionado neste commit; manter a referência na conversa até sua incorporação técnica posterior.
 
-## Frente — retângulos (x, y, largura, altura)
-| Área | x | y | w | h |
+## Hierarquia e composição observadas
+1. Moldura dourada ornamental envolvendo a peça.
+2. Topo: hexágono com coroa à esquerda, retrato cinematográfico de Davi ocupando a região superior esquerda; à direita, marca “Tesouros da Bíblia”, categoria “Reis e Guerreiros”, nome “DAVI” e subtítulo em fita.
+3. Corpo: painel esquerdo com período, local e referências; coluna direita com três painéis (“Quem foi?”, “Qualidades”, “Lições”).
+4. Pergaminho de lição principal no canto inferior esquerdo do corpo.
+5. Faixa inferior de **LEGADO**, com ilustração temática, texto central e quatro destaques à direita. O legado é componente obrigatório da frente.
+
+## Geometria preliminar normalizada (prancheta 1199 × 1536)
+As caixas abaixo são aproximações de regiões visuais, não recortes exatos. O conteúdo ilustrado pode atravessar limites de regiões. Revisar com overlay antes de fixar coordenadas.
+
+| Região | x | y | largura | altura |
 |---|---:|---:|---:|---:|
-| Cabeçalho/categoria/nome | 48 | 48 | 654 | 82 |
-| Retrato ilustrativo | 48 | 148 | 375 | 450 |
-| Quem foi? | 441 | 148 | 261 | 135 |
-| Qualidades | 441 | 301 | 261 | 135 |
-| Lições | 441 | 454 | 261 | 144 |
-| Período/local/referências | 48 | 616 | 654 | 134 |
-| Lição principal | 48 | 768 | 654 | 234 |
+| Moldura externa | 0 | 0 | 1199 | 1536 |
+| Cabeçalho ilustrado | 20 | 15 | 1159 | 490 |
+| Emblema | 30 | 35 | 185 | 195 |
+| Marca e identificação | 590 | 20 | 510 | 470 |
+| Painel período/local/referências | 30 | 520 | 460 | 430 |
+| Painel Quem foi? | 505 | 505 | 660 | 185 |
+| Painel Qualidades | 505 | 700 | 660 | 195 |
+| Painel Lições | 505 | 905 | 660 | 285 |
+| Pergaminho lição principal | 25 | 965 | 475 | 255 |
+| Faixa Legado | 20 | 1210 | 1159 | 310 |
 
-## Verso — retângulos
-| Área | x | y | w | h |
-|---|---:|---:|---:|---:|
-| Cabeçalho/nome | 48 | 48 | 654 | 130 |
-| Curiosidade | 48 | 196 | 318 | 185 |
-| Pergunta e referência | 384 | 196 | 318 | 185 |
-| Linhagem | 48 | 399 | 318 | 185 |
-| Transformação | 384 | 399 | 318 | 185 |
-| Erros e fraquezas | 48 | 602 | 318 | 185 |
-| Momento decisivo | 384 | 602 | 318 | 185 |
-| Legado | 48 | 805 | 654 | 197 |
+**Importante:** caixas aproximadas podem se sobrepor devido a adornos e composições orgânicas. Não aplicar teste de colisão retangular ingênuo a esses elementos.
 
-## Regras geométricas
-1. Mesmas coordenadas de moldura, área segura e cabeçalho em todas as categorias.
-2. Paleta e emblema são variáveis de categoria; geometria é invariável.
-3. Texto não pode ultrapassar o retângulo designado; não reduzir fonte indefinidamente. Revisar conteúdo e extensão.
-4. Retratos originais não podem ser derivados de imagens de jw.org ou wol.jw.org.
-5. Referências devem ser rastreáveis; inferências e aproximações claramente identificadas.
-6. Frente e verso exportados separadamente, com nomes consistentes e mesma proporção.
-7. Testar Davi e Rute antes de homologar. Esta proposta não afirma reproduzir medidas exatas dos modelos anteriores.
+## Invariantes
+- Mesmo desenho de regiões, hierarquia e posições relativas para todas as categorias.
+- Variáveis por personagem: retrato original, cenário, nome, subtítulo, período, local, referências, qualidades, lições e legado.
+- Variáveis por categoria: paleta, emblema e ornamentação temática sem mudar a geometria-base.
+- Texto deve ser fiel à Bíblia, com revisão editorial; não inventar dados ausentes.
+- Não reutilizar imagens de jw.org ou wol.jw.org.
+- O **verso** continua especificado separadamente e não foi redesenhado por esta referência.
+- Sem merge, sem deploy, sem publicação.
 
-## Pendências de homologação
-- Definir dimensões físicas de impressão, sangria, DPI e perfil de cor.
-- Definir tipografia, tamanhos mínimos, contraste, símbolos vetoriais e ornamentos.
-- Prova com textos longos e revisão de 25 pontos de encaixe.
-- Conferência frente/verso, legibilidade em celular e impressão, revisão humana.
+## Próximas provas
+1. Gerar overlay de linhas-guia sobre a imagem e refinar as coordenadas.
+2. Verificar 25 pontos de alinhamento, margens e áreas de segurança.
+3. Testar o encaixe com Rute e outros nomes/comprimentos de texto.
+4. Homologar tipografia, legibilidade e exportação.
