@@ -1,0 +1,46 @@
+{
+  "version": "1.0-draft",
+  "canvas": {
+    "width": 750,
+    "height": 1050,
+    "unit": "design-unit"
+  },
+  "categories": [
+    {
+      "id": "reis-guerreiros",
+      "name": "Reis e Guerreiros",
+      "base": "#102A4A",
+      "accent": "#CBA45A",
+      "emblem": "coroa"
+    },
+    {
+      "id": "patriarcas-lideres",
+      "name": "Patriarcas e Líderes",
+      "base": "#65442D",
+      "accent": "#CBA45A",
+      "emblem": "tenda"
+    },
+    {
+      "id": "profetas-mensageiros",
+      "name": "Profetas e Mensageiros",
+      "base": "#59616B",
+      "accent": "#CBA45A",
+      "emblem": "rolo"
+    },
+    {
+      "id": "mulheres-biblia",
+      "name": "Mulheres da Bíblia",
+      "base": "#68417E",
+      "accent": "#CBA45A",
+      "emblem": "lírio"
+    },
+    {
+      "id": "apostolos-discipulos",
+      "name": "Apóstolos e Discípulos",
+      "base": "#245C43",
+      "accent": "#CBA45A",
+      "emblem": "espiga"
+    }
+  ],
+  "status": "pending-homologation"
+}
