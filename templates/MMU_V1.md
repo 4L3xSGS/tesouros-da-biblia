@@ -47,3 +47,6 @@ As caixas abaixo são aproximações de regiões visuais, não recortes exatos. 
 
 ## Regra permanente: moldura externa oficial
 A moldura dourada ornamental da primeira imagem de Davi enviada pelo usuário é obrigatória em todos os cards, frente e verso. Preservar contorno, ornamentos, cantos e proporções. Cores e emblemas internos podem variar por categoria, mas a moldura externa não pode ser substituída. A alternativa com gemas azuis foi rejeitada. Alterações exigem aprovação explícita. Cada card deve passar por comparação visual com a referência original antes da homologação.
+
+## Regra de alinhamento do cabeçalho — referência DAVI
+Na área direita do cabeçalho, definir o eixo vertical de composição pelo centro horizontal geométrico do texto **DAVI** no modelo original. Centralizar **horizontalmente nesse mesmo eixo** o título “TESOUROS DA BÍBLIA”, a categoria “REIS E GUERREIROS”, o nome do personagem e a faixa descritiva. Empilhar os elementos verticalmente com espaçamento visual equilibrado. O alinhamento vertical refere-se à organização da pilha, não a colocar todos os centros na mesma altura. Para outros nomes, adaptar escala tipográfica sem mover o eixo. Preservar retrato, hexágono e moldura oficial. Validar com overlay na imagem original antes de homologar coordenadas exatas.
