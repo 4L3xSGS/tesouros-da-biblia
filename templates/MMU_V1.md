@@ -44,3 +44,6 @@ As caixas abaixo são aproximações de regiões visuais, não recortes exatos. 
 2. Verificar 25 pontos de alinhamento, margens e áreas de segurança.
 3. Testar o encaixe com Rute e outros nomes/comprimentos de texto.
 4. Homologar tipografia, legibilidade e exportação.
+
+## Regra permanente: moldura externa oficial
+A moldura dourada ornamental da primeira imagem de Davi enviada pelo usuário é obrigatória em todos os cards, frente e verso. Preservar contorno, ornamentos, cantos e proporções. Cores e emblemas internos podem variar por categoria, mas a moldura externa não pode ser substituída. A alternativa com gemas azuis foi rejeitada. Alterações exigem aprovação explícita. Cada card deve passar por comparação visual com a referência original antes da homologação.
