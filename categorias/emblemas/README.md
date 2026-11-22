@@ -1,19 +1,18 @@
-# Emblemas oficiais — protótipos vetoriais
+# Emblemas de categoria — padrão PNG
 
-Cinco arquivos SVG reutilizáveis, um por categoria, todos com `viewBox="0 0 220 200"` e fundo transparente fora do hexágono.
+**Decisão oficial:** utilizar exclusivamente os cinco emblemas PNG extraídos da imagem de referência fornecida pelo usuário. Os SVGs foram descartados desta branch.
 
-| Categoria | Arquivo | Símbolo |
-|---|---|---|
-| Reis e Guerreiros | reis-guerreiros.svg | coroa |
-| Patriarcas e Líderes | patriarcas-lideres.svg | tenda |
-| Profetas e Mensageiros | profetas-mensageiros.svg | rolo |
-| Mulheres da Bíblia | mulheres-biblia.svg | lírio |
-| Apóstolos e Discípulos | apostolos-discipulos.svg | espiga |
+## Arquivos previstos
+- `reis-guerreiros.png` — coroa, azul
+- `patriarcas-lideres.png` — tenda, marrom
+- `profetas-mensageiros.png` — rolo, cinza
+- `mulheres-biblia.png` — lírio, violeta
+- `apostolos-discipulos.png` — espiga, verde
 
-## Uso
-Incorporar o SVG correspondente à categoria no mesmo slot do cabeçalho, mantendo tamanho e posição idênticos. Não mudar a moldura externa original do card de Davi.
+## Especificações
+Formato PNG RGBA, 752 × 752 pixels, fundo externo transparente. Usar o mesmo arquivo por categoria em todos os cards; não redesenhar o símbolo nem mudar a moldura hexagonal.
 
-## Estado de aprovação
-**Protótipos não homologados.** Foram redesenhados em SVG a partir da referência visual fornecida pelo usuário; não são extrações exatas de seus pixels. Comparar forma, acabamento, cores e espessuras com a imagem original antes de marcar como definitivos. Não utilizar imagens de jw.org ou wol.jw.org.
+## Estado de integração
+Os PNGs foram produzidos localmente e estão disponíveis como pacote entregue na conversa. **Ainda não foram enviados ao GitHub.** A biblioteca só estará completa após upload binário e conferência dos cinco arquivos no repositório.
 
 Sem merge ou deploy.
