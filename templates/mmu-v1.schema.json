@@ -1,0 +1,122 @@
+{
+  "version": "1.0-draft",
+  "canvas": {
+    "width": 750,
+    "height": 1050
+  },
+  "safeArea": {
+    "x": 48,
+    "y": 48,
+    "width": 654,
+    "height": 954
+  },
+  "front": [
+    {
+      "id": "header",
+      "x": 48,
+      "y": 48,
+      "width": 654,
+      "height": 82
+    },
+    {
+      "id": "portrait",
+      "x": 48,
+      "y": 148,
+      "width": 375,
+      "height": 450
+    },
+    {
+      "id": "identity",
+      "x": 441,
+      "y": 148,
+      "width": 261,
+      "height": 135
+    },
+    {
+      "id": "qualities",
+      "x": 441,
+      "y": 301,
+      "width": 261,
+      "height": 135
+    },
+    {
+      "id": "lessons",
+      "x": 441,
+      "y": 454,
+      "width": 261,
+      "height": 144
+    },
+    {
+      "id": "context",
+      "x": 48,
+      "y": 616,
+      "width": 654,
+      "height": 134
+    },
+    {
+      "id": "mainLesson",
+      "x": 48,
+      "y": 768,
+      "width": 654,
+      "height": 234
+    }
+  ],
+  "back": [
+    {
+      "id": "header",
+      "x": 48,
+      "y": 48,
+      "width": 654,
+      "height": 130
+    },
+    {
+      "id": "curiosity",
+      "x": 48,
+      "y": 196,
+      "width": 318,
+      "height": 185
+    },
+    {
+      "id": "question",
+      "x": 384,
+      "y": 196,
+      "width": 318,
+      "height": 185
+    },
+    {
+      "id": "lineage",
+      "x": 48,
+      "y": 399,
+      "width": 318,
+      "height": 185
+    },
+    {
+      "id": "transformation",
+      "x": 384,
+      "y": 399,
+      "width": 318,
+      "height": 185
+    },
+    {
+      "id": "weaknesses",
+      "x": 48,
+      "y": 602,
+      "width": 318,
+      "height": 185
+    },
+    {
+      "id": "decisiveMoment",
+      "x": 384,
+      "y": 602,
+      "width": 318,
+      "height": 185
+    },
+    {
+      "id": "legacy",
+      "x": 48,
+      "y": 805,
+      "width": 654,
+      "height": 197
+    }
+  ]
+}
